@@ -1,0 +1,15 @@
+[project]
+name = "cmu-10-714-deep-learning-systems-assignments"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mugrade",
+    "numdifftools>=0.9.42",
+    "numpy>=2.2.6",
+    "pybind11>=3.0.2",
+]
+
+[tool.uv.sources]
+mugrade = { git = "https://github.com/dlsyscourse/mugrade.git" }
